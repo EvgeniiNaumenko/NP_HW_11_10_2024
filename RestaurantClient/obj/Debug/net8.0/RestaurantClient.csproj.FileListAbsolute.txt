@@ -1,0 +1,14 @@
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\RestaurantClient\bin\Debug\net8.0\RestaurantClient.exe
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\RestaurantClient\bin\Debug\net8.0\RestaurantClient.deps.json
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\RestaurantClient\bin\Debug\net8.0\RestaurantClient.runtimeconfig.json
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\RestaurantClient\bin\Debug\net8.0\RestaurantClient.dll
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\RestaurantClient\bin\Debug\net8.0\RestaurantClient.pdb
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\RestaurantClient\obj\Debug\net8.0\RestaurantClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\RestaurantClient\obj\Debug\net8.0\RestaurantClient.AssemblyInfoInputs.cache
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\RestaurantClient\obj\Debug\net8.0\RestaurantClient.AssemblyInfo.cs
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\RestaurantClient\obj\Debug\net8.0\RestaurantClient.csproj.CoreCompileInputs.cache
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\RestaurantClient\obj\Debug\net8.0\RestaurantClient.dll
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\RestaurantClient\obj\Debug\net8.0\refint\RestaurantClient.dll
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\RestaurantClient\obj\Debug\net8.0\RestaurantClient.pdb
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\RestaurantClient\obj\Debug\net8.0\RestaurantClient.genruntimeconfig.cache
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\RestaurantClient\obj\Debug\net8.0\ref\RestaurantClient.dll

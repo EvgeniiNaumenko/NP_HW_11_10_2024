@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KitchenServer", "KitchenServer\KitchenServer.csproj", "{DF086C5D-7CF0-4B53-9946-3EF2CC08294D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantClient", "RestaurantClient\RestaurantClient.csproj", "{251F1261-A762-4D1E-AB9D-2E79F320B59B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF086C5D-7CF0-4B53-9946-3EF2CC08294D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF086C5D-7CF0-4B53-9946-3EF2CC08294D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF086C5D-7CF0-4B53-9946-3EF2CC08294D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF086C5D-7CF0-4B53-9946-3EF2CC08294D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251F1261-A762-4D1E-AB9D-2E79F320B59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251F1261-A762-4D1E-AB9D-2E79F320B59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251F1261-A762-4D1E-AB9D-2E79F320B59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251F1261-A762-4D1E-AB9D-2E79F320B59B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65AE91B9-3023-4B8F-94C3-0634F711647B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\obj\Debug\net8.0\KitchenServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\obj\Debug\net8.0\KitchenServer.AssemblyInfoInputs.cache
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\obj\Debug\net8.0\KitchenServer.AssemblyInfo.cs
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\obj\Debug\net8.0\KitchenServer.csproj.CoreCompileInputs.cache
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\bin\Debug\net8.0\KitchenServer.exe
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\bin\Debug\net8.0\KitchenServer.deps.json
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\bin\Debug\net8.0\KitchenServer.runtimeconfig.json
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\bin\Debug\net8.0\KitchenServer.dll
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\bin\Debug\net8.0\KitchenServer.pdb
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\obj\Debug\net8.0\KitchenServer.dll
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\obj\Debug\net8.0\refint\KitchenServer.dll
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\obj\Debug\net8.0\KitchenServer.pdb
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\obj\Debug\net8.0\KitchenServer.genruntimeconfig.cache
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\obj\Debug\net8.0\ref\KitchenServer.dll
