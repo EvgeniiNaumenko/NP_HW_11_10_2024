@@ -12,3 +12,4 @@ D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenSer
 D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\obj\Debug\net8.0\KitchenServer.pdb
 D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\obj\Debug\net8.0\KitchenServer.genruntimeconfig.cache
 D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\obj\Debug\net8.0\ref\KitchenServer.dll
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\NetworkProg\NP_HW_11_10_2024\KitchenServer\obj\Debug\net8.0\KitchenServer.sourcelink.json

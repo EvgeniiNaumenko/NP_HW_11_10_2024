@@ -57,11 +57,12 @@ public class Server
                 string[] splitData = data.Split(':');
 
                 string command = splitData[0];
-                string restaurantName = splitData[1];
-                string orderDetails = splitData[2];
 
                 if (command == "ADD_ORDER")
                 {
+                    string restaurantName = splitData[1];
+                    string orderDetails = splitData[2];
+                    int orderId = Interlocked.Increment(ref orderIdCounter);
                     Order order = new Order
                     {
                         Id = ++orderIdCounter,
@@ -74,13 +75,14 @@ public class Server
                     string response = $"Ваш заказ принят! Номер заказа: №{order.Id}";
                     byte[] responseBytes = Encoding.UTF8.GetBytes(response);
                     await stream.WriteAsync(responseBytes, 0, responseBytes.Length);
-                    // тут задержку вставить 
+
+                    await Task.Delay(new Random().Next(10, 20) * 1000);
+
                     order.OrderStatus = true; 
                 }
                 else if (command == "CHECK_ORDER")
                 {
-                    Console.WriteLine("Проверяем статус заказа.");
-                    if (int.TryParse(orderDetails, out int id) && orderStatus.TryGetValue(id, out Order order))
+                    if (int.TryParse(splitData[2], out int id) && orderStatus.TryGetValue(id, out Order order))
                     {
                         string result = order.OrderStatus ? "готов!" : "в процессе приготовления!";
                         string response = $"Ваш заказ №{order.Id}, {result}";
@@ -89,7 +91,9 @@ public class Server
                     }
                     else
                     {
-                        Console.WriteLine("Заказ не найден или неверный ID.");
+                        string response = "Заказ не найден или неверный ID.";
+                        byte[] responseBytes = Encoding.UTF8.GetBytes(response);
+                        await stream.WriteAsync(responseBytes, 0, responseBytes.Length);
                     }
                 }
                 stream.Close();

@@ -8,7 +8,6 @@ class Program
     {
         Console.WriteLine("Введите имя ресторана!");
         string restaurantName = Console.ReadLine();
-        Client client = new Client(restaurantName, "127.0.0.1", 7777);
         bool exit = false;
 
         try
@@ -28,15 +27,24 @@ class Program
                     case "1":
                         Console.WriteLine("Введите заказ");
                         string orderDetails = Console.ReadLine();
-                        client.PlaceOrder(orderDetails);
+                        using (Client client = new Client(restaurantName, "127.0.0.1", 7777))
+                        {
+                            client.PlaceOrder(orderDetails);
+                        }
                         break;
                     case "2":
-                        client.ShowMyOrders();
+                        Console.WriteLine("Мои заказы");
+                        Client.ShowMyOrders();
                         break;
                     case "3":
                         Console.WriteLine("Введите Id заказа");
                         if (int.TryParse(Console.ReadLine(), out int orderId))
-                            client.CheckOrderStatus(orderId);
+                        {
+                            using (Client client = new Client(restaurantName, "127.0.0.1", 7777))
+                            {
+                                client.CheckOrderStatus(orderId);
+                            }
+                        }
                         else
                             Console.WriteLine("Неверный ввод!");
                         break;
@@ -54,19 +62,15 @@ class Program
         {
             Console.WriteLine($"Ошибка: {ex.Message}");
         }
-        finally
-        {
-            client.Close();
-        }
     }
 }
 
-public class Client
+public class Client:IDisposable
 {
     private TcpClient client;
     private NetworkStream stream;
     private string restaurantName;
-    private Dictionary<int, string> myOrders = new Dictionary<int, string>();
+    private static Dictionary<int, string> myOrders = new Dictionary<int, string>();
 
     public Client(string name, string ip, int port)
     {
@@ -87,6 +91,7 @@ public class Client
             int bytesRead = stream.Read(buffer, 0, buffer.Length);
             string response = Encoding.UTF8.GetString(buffer, 0, bytesRead);
             Console.WriteLine(response);
+
             SaveOrder(orderDetails, response);
         }
         catch (Exception ex)
@@ -141,7 +146,7 @@ public class Client
         }
     }
 
-    public void ShowMyOrders()
+    public static void ShowMyOrders()
     {
         if (myOrders.Count > 0)
         {
@@ -155,5 +160,10 @@ public class Client
         {
             Console.WriteLine("Заказов еще нет!");
         }
+    }
+    public void Dispose()
+    {
+        stream?.Close();
+        client?.Close();
     }
 }
